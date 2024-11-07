@@ -7,19 +7,25 @@
 }
 
 body {
-    background: #000000;
+    background-image: url('projects background.jpg'); /* Set your background image */
+    background-size: cover; /* Make the image cover the entire background */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Keep the image fixed while scrolling */
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
 }
 
+/* Projects container styling */
 .projects-container {
     text-align: center;
     margin: 50px;
+    background-color: rgba(0, 0, 0, 0.5); /* Add semi-transparent background to the container for better readability */
+    border-radius: 10px;
+    padding: 40px;
 }
 
 .projects-container h1 {
