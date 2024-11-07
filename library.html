@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="library.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Library Management System</h1>
+
+        <div class="menu">
+            <button onclick="addBook()">Add Book Information</button>
+            <button onclick="displayBooks()">Display All Books</button>
+            <button onclick="listBooksByAuthor()">List Books by Author</button>
+            <button onclick="countBooks()">Count Books in Library</button>
+            <button onclick="exitProgram()">Exit</button>
+        </div>
+
+        <div id="book-list" class="book-list" style="display: none;">
+            <h2>Books in the Library:</h2>
+            <ul id="books"></ul>
+        </div>
+
+        <div id="author-books" class="author-books" style="display: none;">
+            <h2>Books by Author:</h2>
+            <ul id="author-list"></ul>
+        </div>
+
+        <div id="message"></div>
+    </div>
+
+    <script src="library.js"></script>
+</body>
+</html>
