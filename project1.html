@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 - Student Management</title>
+    <link rel="stylesheet" href="project1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Project 1 - Student Management</h1>
+        <div class="buttons-container">
+            <button class="action-btn" onclick="addStudent()">Add Student</button>
+            <button class="action-btn" onclick="findStudentByRollNo()">Find Student by Roll Number</button>
+            <button class="action-btn" onclick="findStudentByNamePrompt()">Find Student by Name</button>
+            <button class="action-btn" onclick="updateStudent()">Update Student</button>
+            <button class="action-btn" onclick="countStudents()">Count Students</button>
+            <button class="action-btn" onclick="deleteStudent()">Delete Student</button>
+            <button class="action-btn" onclick="exitProgram()">Exit</button>
+        </div>
+
+        <div id="student-details" class="details-container" style="display:none;">
+            <h2>Enter Student Details</h2>
+            <div id="input-container"></div>
+        </div>
+    </div>
+
+    <script src="project1.js"></script>
+</body>
+</html>

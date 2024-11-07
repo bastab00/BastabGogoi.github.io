@@ -1,0 +1,92 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Main container */
+.container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    color: #ff004f;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+.buttons-container {
+    margin-bottom: 30px;
+}
+
+.action-btn {
+    display: block;
+    background-color: #ff004f;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+    background-color: #b54769;
+}
+
+/* Input and details container */
+.details-container {
+    text-align: left;
+}
+
+.details-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.details-container button {
+    background-color: #ff004f;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.details-container button:hover {
+    background-color: #b54769;
+}
+
+#msg {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #61b752;
+}
